@@ -1,5 +1,5 @@
 # Mask2Former for multispectral images
-This repository contains the adaptions made to Maks2Former to handle multispectral data.
+This repository contains the adaptions made to Mask2Former to handle multispectral data.
 
 
 Mask2Former paper: https://arxiv.org/pdf/2112.01527.pdf  
@@ -7,8 +7,15 @@ Mask2Former repository: https://github.com/facebookresearch/Mask2Former
 Detectron2 repository: https://github.com/facebookresearch/detectron2  
 Interactive demo: https://pcgarcia18.github.io/image_test_tfm/  
   
+## Segmentation examples
 
-## installing Detectron2 and Mask2Former
+![Cool lakes](cool-lakes.gif)
+![Cool river](cool-river.gif)
+![Cool big city](cool-big-city.gif)
+![Cool city near river](cool-city-near-river.gif)
+
+
+## Installing Detectron2 and Mask2Former
 Env creation:
 * conda create --name mask2former python=3.8 -y
 * conda activate mask2former
